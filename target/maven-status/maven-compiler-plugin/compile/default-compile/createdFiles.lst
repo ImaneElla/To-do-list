@@ -1,0 +1,3 @@
+com\todolist\Main.class
+com\todolist\managers\TodoManager.class
+com\todolist\models\Task.class
