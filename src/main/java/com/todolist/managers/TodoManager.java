@@ -29,4 +29,24 @@ public class TodoManager {
     public List<Task> getTasks() {
         return tasks;
     }
+    // Logic to remove a task by its index (position in the list)
+    public void removeTask(int index) {
+        if (index >= 0 && index < tasks.size()) {
+            tasks.remove(index);
+        }
+    }
+    public List<String> getTaskDescriptions() {
+    List<String> descriptions = new ArrayList<>();
+    for (Task t : tasks) {
+        descriptions.add(t.getDescription());
+    }
+    return descriptions;
+}
+// Logic to toggle a task as completed using its position
+public void markTaskAsDone(int index) {
+    if (index >= 0 && index < tasks.size()) {
+        // We get the task from the list and use the method we built in the Task model
+        tasks.get(index).markAsDone();
+    }
+}
 }
