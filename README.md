@@ -9,22 +9,23 @@ This is a simple, professionally structured **To-Do List Manager** built with **
 ![App Screenshot](assets/Screen.png)
 
 ---
-
 ## 🚀 Key Features
 
-This project was built using a robust technical stack to ensure scalability and maintainability:
+This project is built using a robust technical stack to ensure scalability and maintainability:
 
- **Java 21**: Utilized the latest LTS features for a modern and secure codebase.
- **Java Swing Framework**: Implemented the GUI components (JTextField, JList, JButton) to create an interactive desktop experience.
- **Maven Build System**: Managed dependencies and the project lifecycle, ensuring easy compilation and build consistency.
- 
- **MVC-Like Architecture**:
-    **Models**: Used for data definition (`Task` class).
-    **Managers**: Used for business logic and data processing (`TodoManager`).
-    **Views**: Managed via the `Main` class for rendering UI.
- **Collections Framework**: Leveraged `ArrayList` for dynamic, memory-efficient data storage.
- **Event-Driven Programming**: Handled user interactions (add/mark as done) using `ActionListener` and `DefaultListModel`.
- **Layout Management**: Used `BoxLayout` for a clean, centered, and responsive design.
+- **Java 21**: Utilized the latest LTS features for a modern and secure codebase.  
+- **Java Swing Framework**: Implemented GUI components (JTextField, JList, JButton) to create an interactive desktop experience.  
+- **Maven Build System**: Managed dependencies and project lifecycle for easy compilation and build consistency.  
+
+### 🏗️ MVC-like Architecture
+
+- **Models**: Define application data structure (`Task` class).  
+- **Managers**: Handle business logic and data processing (`TodoManager`).  
+- **Views**: Responsible for UI rendering and user interaction (`Main` class).  
+
+- **Collections Framework**: Uses `ArrayList` for dynamic and memory-efficient data storage.  
+- **Event-Driven Programming**: Handles user actions (add / mark as done) using `ActionListener` and `DefaultListModel`.  
+- **Layout Management**: Uses `BoxLayout` for a clean, centered, and responsive UI design.  
 
 ---
 
