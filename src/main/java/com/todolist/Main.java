@@ -1,15 +1,29 @@
 package com.todolist;
 
+import java.awt.Component;
+import java.awt.Dimension;
+import java.awt.Font;
+
+import javax.swing.BorderFactory;
+import javax.swing.Box;
+import javax.swing.BoxLayout;
+import javax.swing.DefaultListModel;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JList;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextField;
+
 import com.todolist.managers.TodoManager;
-import javax.swing.*;
-import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
         TodoManager manager = new TodoManager();
 
         // 1. Setup the Frame
-        JFrame frame = new JFrame("Imane's Professional To-Do");
+        JFrame frame = new JFrame("Imane's To-Do List");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(500, 500);
         
@@ -19,7 +33,7 @@ public class Main {
         mainPanel.setBorder(BorderFactory.createEmptyBorder(20, 20, 20, 20));
 
         // 2. UI Components
-        JLabel titleLabel = new JLabel("My Tasks Manager");
+        JLabel titleLabel = new JLabel("My Tasks ");
         titleLabel.setAlignmentX(Component.CENTER_ALIGNMENT); // Center the label
         titleLabel.setFont(new Font("Arial", Font.BOLD, 18));
 
