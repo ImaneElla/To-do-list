@@ -69,12 +69,6 @@ The project is divided into three main parts:
 
 ---
 
-## 📝 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 👩‍💻 Developed By
 
 Imane - Software Development Student
